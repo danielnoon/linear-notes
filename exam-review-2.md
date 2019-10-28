@@ -34,5 +34,17 @@ This Exam: Chapters 3, 4, 5
     * Rank is just dimension of the column space of A
     * The “rank theorem” says:
       * $\text{rank} +\dim(\text{Nul}A) = n$ for $A$ $m\times n$.
-* Eigenstuff
+  * Coordinate Systems (4.7)
+    * If $B=\{\vec b_1,\dots,\vec b_n\}$ is a basis of $\mathbb R^n$ then $P_B = [\vec b_1,\dots,\vec b_n]$ is a “[change of basis](4.7-change-of-basis)”
+* Eigenstuff (5.1-5.5)
+  * 5.3, 5.4 not on exam
+  * If $A\vec x = \lambda\vec x$ for $\vec x \ne \vec 0$ and $\lambda$ constant, then $\lambda$ is and “eigenvalue.” $\vec x$ is an “eigenvector.”
+  * To find $\lambda$, solve $0=\det(A-\lambda I)$.
+  * To find $\vec x$, obtain parametric solutions to $(A-\lambda I)\vec x = 0$.
+  * If $A$ is $n\times n$:
+    * has at most $n$ $\lambda$s (exactly n counting multiplicity)
+    * eigenspace for $\lambda$ is dimension of multiplicity of $\lambda$ *or lower*.
+    * There is always *at least one* non-trivial solution.
+    * Sometimes, $\lambda$ is complex. These eigenvalues come in pairs.
+    * If  $\lambda=0$ is an eigenvalue, $A$ is not invertible.
 
