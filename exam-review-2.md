@@ -24,10 +24,15 @@ This Exam: Chapters 3, 4, 5
     * $\text{span}\{\vec v_1,\dots,\vec v_p\}=\{c_1\vec v_1+c_2\vec v_2+\dots+c_p\vec v_p\}$
   * Important types of subspaces
     * $\text{Nul}A$
-    * $\text{Col}A$
+    * $\text{Col}A​$
   * Bases (4.3)
     * Smallest linearly independent set that spans a space
       * Previous methods for finding NulA, ColA finds their bases
-      * 
+  * Dimension
+    * Number of vectors in a basis
+  * Bringing everything together (4.6)
+    * Rank is just dimension of the column space of A
+    * The “rank theorem” says:
+      * $\text{rank} +\dim(\text{Nul}A) = n$ for $A$ $m\times n$.
 * Eigenstuff
 
